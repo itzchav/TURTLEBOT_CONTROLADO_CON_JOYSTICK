@@ -55,13 +55,11 @@ sudo jstest /dev/input/js0
 ```
 export ROS_MASTER_URI=http://TurtleBotIP:11311
 export ROS_IP=CompuIP 
-ssh robotica@TurtleBotIP
 ```
 
 ```
 export ROS_MASTER_URI=http://192.168.43.178:11311
  export ROS_IP=192.168.43.188
-ssh robotica@192.168.43.178
 ```
 
 ```
@@ -100,9 +98,12 @@ ssh robotica@192.168.43.178
     <img src=./IMÁGENES/j4.png alt="drawing" width="600"/>
 </p>
 
-Si apagamos la conexión lo podéis hacer apagado la jetson ejecutando en terminal
+Una ejecutando los comandos para la terminal 1 y 2 se tendrá configurado el espacio de trabajo y por lo tanto podremos manejar el turtlebot real remotamente con un joystick conectado a la computadora.
+
+
+Si apagamos la conexión lo podéis hacer apagado la jetson ejecutando en terminal.
  ```
  sudo poweroff
  ```
-### En la computadora con Windows
+
 
