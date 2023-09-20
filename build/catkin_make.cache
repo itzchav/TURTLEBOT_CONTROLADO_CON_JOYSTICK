@@ -1,0 +1,2 @@
+erick:joystick_teleop:turtle_sim
+-DCATKIN_DEVEL_PREFIX=/home/erick/erick_wsp/devel -DCMAKE_INSTALL_PREFIX=/home/erick/erick_wsp/install -G Unix Makefiles

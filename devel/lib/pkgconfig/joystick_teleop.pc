@@ -1,0 +1,8 @@
+prefix=/home/erick/erick_wsp/devel
+
+Name: joystick_teleop
+Description: Description of joystick_teleop
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
